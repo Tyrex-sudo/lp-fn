@@ -1,0 +1,19 @@
+PANDUAN ASSET - Landing Page Fitness Nation
+Cara ganti gambar: timpa file dengan nama & ukuran yang sama (jangan ubah nama file). Kode tidak perlu diedit.
+
+FOLDER / NAMA FILE                          UKURAN (px)      FORMAT           CATATAN
+assets/logo/logo.png                        600 x 180        PNG transparan   Logo pojok kiri atas (tampil tinggi 44px)
+assets/logo/favicon.png                     512 x 512        PNG              Ikon tab browser
+assets/hero/hero.jpg                        1920 x 1080      JPG (maks 300KB) Background banner utama, objek di sisi kanan
+assets/promo/promo-01.jpg ... promo-06.jpg  800 x 800        JPG (maks 150KB) Rasio 1:1, teks/harga diedit di index.html (PROMOS)
+assets/portfolio/gym-komersial-01.jpg, -02  1200 x 900       JPG (maks 200KB) Rasio 4:3
+assets/portfolio/home-gym-01.jpg, -02       1200 x 900       JPG
+assets/portfolio/hotel-apartemen-01.jpg     1200 x 900       JPG
+assets/portfolio/studio-klub-01.jpg         1200 x 900       JPG
+assets/brands/dhz.png, ironbull.png,
+  livepro.png, insight.png, brtw.png        300 x 120        PNG transparan   Logo brand di marquee berjalan
+
+Tambah foto portofolio: simpan sebagai {kategori}-03.jpg dst, lalu tambah baris di array PF (index.html).
+Tambah kategori baru: tambah di CATS dan PF (nama kategori = awalan nama file).
+Yang wajib diedit di index.html: WA (nomor WhatsApp), alamat showroom, jam operasional, angka statistik, harga promo.
+Google Ads: tempel tag gtag di bagian komentar "GOOGLE ADS" dan aktifkan baris conversion di script.
